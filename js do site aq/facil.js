@@ -19,10 +19,10 @@ for(let i = 0; i < pp.length; i++) {
 
 let pergunta = []
 let npergunta = 0
-const qntdperguntas = 5 //coloque o valor exato de perguntas que o quiz deve ter!
+const qntdperguntas = 5
 let opc = [1,2,3,4]
 let acertos = 0
-{ //escolhendo pergunta
+{ //escolhe pergunta
     for(let i = 0; i < epergunta.length; i++) {
         t = parseInt(Math.random() * epergunta.length)
         aux = epergunta[i]
